@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+    padding: 2rem;
+    max-width: 700px;
+    margin: auto;
+    background: #f5f5f5;
+  }
+  h1 {
+    text-align: center;
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  input, select, button {
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-top: 0.3rem;
+  }
+  .summary {
+    margin-top: 1rem;
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .transactions {
+    margin-top: 1rem;
+  }
+  .transaction {
+    background: white;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-left: 4px solid #007bff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .transaction.expense {
+    border-color: #dc3545;
+  }
+  .actions button {
+    margin-left: 5px;
+  }
+  canvas { margin-top: 2rem; }
